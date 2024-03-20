@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+            
+
+     
+   
+    <script>
+        async function Calculator(){
+   
+            const req = await fetch('http://20.244.56.144/numbers/even')
+            .then(res=>{
+              const even= req.number;
+              even.foreach()=>{
+                if(even%2==0){
+                  console.log(even);
+                }
+              }
+            });
+            const primereq= await fetch('http://20.244.56.144/numbers/prime')
+            .then(res=>{
+              
+              primereq.foreach(answer)=>{
+                if(primereq<=2){
+                    console.log('');
+                }
+                if()
+
+
+              }
+              }
+            }
+
+        
+    </script>
+</body>
+</html>
